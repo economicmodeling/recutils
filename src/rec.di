@@ -28,7 +28,7 @@ module rec;
 import std.stdio;
 import core.sys.posix.fcntl;
 
-extern(C):
+@nogc nothrow extern(C):
 
 /*
  * rec format version implemented by this library.
