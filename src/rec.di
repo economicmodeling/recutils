@@ -1968,7 +1968,7 @@ long rec_parser_tell (rec_parser_t parser);
 
 /* Opaque data type representing a rec writer.  */
 struct rec_writer_s {}
-alias rec_writer_t = rec_writer_s;
+alias rec_writer_t = rec_writer_s*;
 
 /* Enumerated value identifying the operation modes of the writers.
    The operation mode defines what kind of output the writer will
